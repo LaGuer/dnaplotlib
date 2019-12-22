@@ -1,3 +1,9 @@
+[![Coverage Status](http://img.shields.io/coveralls/LaGuer/dnaplotlib.svg?style=flat-square)](https://coveralls.io/r/LaGuer/dnaplotlib?branch=master)
+[![Build status](https://ci.appveyor.com/api/projects/status/8w554f36u0aj8vu5/branch/master?svg=true)](https://ci.appveyor.com/project/LaGuer/dnaplotlib/branch/master)
+[![codecov](https://codecov.io/gh/LaGuer/dnaplotlib/branch/master/graph/badge.svg)](https://codecov.io/gh/LaGuer/dnaplotlib)
+[![Travis](https://travis-ci.org/LaGuer/dnaplotlib.svg?branch=master)](https://travis-ci.org/LaGuer/dnaplotlib)
+[![MyBinder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/laguer/dnaplotlib/master)
+
 # DNAplotlib
 
 DNAplotlib is a library that enables highly customizable visualization of individual genetic constructs and libraries of design variants. It can be thought of in many ways as matplotlib for genetic diagrams. Publication quality vector-based output is produced and all aspects of the rendering process can be easily customized or replaced by the user. DNAplotlib is capable of SBOL Visual compliant diagrams in addition to a format able to better illustrate the precise location and length of each genetic part. This alternative "traced-based" visualization method enables direct comparison with nucleotide-level information such as RNA-seq read depth or other base resolution measures. While it is envisaged that access will be predominantly via the programming interface, several easy to use text-based input formats can be processed by a command-line scripts to facilitate broader usage. DNAplotlib is cross-platform and open-source software released under the OSI OSL-3.0 license.
